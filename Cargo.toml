@@ -6,3 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+chrono = {version="0.4.22", features=["serde", "wasmbind"]}
+yew = "0.19.3"
+yew-chart = "0.5.0"
+
