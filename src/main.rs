@@ -1,27 +1,14 @@
-mod email_field;
-mod sign_in_button;
+mod components;
+mod pages;
 
-use email_field::*;
-use sign_in_button::*;
 use yew::prelude::*;
+
+use pages::*;
 
 #[function_component(App)]
 fn app() -> Html {
     html! {
-
-        <section style="
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        flex-direction: column;
-        height: 50vh
-        ">
-
-        <h1>{"Dev Admin"}</h1>
-
-        <EmailField/>
-        <SignInButton/>
-    </section>
+        <SignInPage/>
     }
 }
 
