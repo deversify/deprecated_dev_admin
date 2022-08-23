@@ -8,7 +8,7 @@ use pages::*;
 #[function_component(App)]
 fn app() -> Html {
     html! {
-        <SignInPage/>
+        <SignInPage />
     }
 }
 
